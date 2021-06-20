@@ -1,0 +1,18 @@
+{
+	"name": "typechain",
+	"version": "1.0.0",
+	"description": "Learning Typescript by making a Blockchain with it",
+	"main": "index.js",
+	"repository": "https://github.com/Gimoring/TS-Practice-Nomad.git",
+	"author": "Junpil",
+	"license": "MIT",
+	"scripts": {
+		"start": "tsc-watch --onSuccess \"node dist/index.js\" "
+	},
+	"devDependencies": {
+		"@types/node": "^15.12.4",
+		"ts-node": "^10.0.0",
+		"tsc-watch": "^4.4.0",
+		"typescript": "^4.3.4"
+	}
+}
